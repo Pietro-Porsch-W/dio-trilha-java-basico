@@ -7,9 +7,9 @@ public class ContaTerminal {
         Scanner tec = new Scanner(System.in);
         System.out.println("Seja bem vindo ao nosso programa de criação de contas bancarias!\nPor favor, informe primeiramente o seu nome");
         String nome = tec.nextLine();
-        System.out.println("Agora informe qual a sua agencia:");
+        System.out.println("Por favor, informe qual a sua agencia:");
         String agencia = tec.nextLine();
-        System.out.println("Agora, informe qual o número da conta:");
+        System.out.println("Por favor, informe qual o número da conta:");
         int numero = tec.nextInt();
         System.out.println("E por ultimo, informe seu saldo:");
         float saldo = tec.nextFloat();
