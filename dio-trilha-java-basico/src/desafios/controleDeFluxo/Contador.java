@@ -1,4 +1,4 @@
-package DesafioControleFluxo;
+package desafios.controleDeFluxo;
 
 import java.util.Scanner;
 
