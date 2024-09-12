@@ -21,7 +21,9 @@ public class Bootcamp {
     public void setNome(String nome) {
         this.nome = nome;
     }
-
+    public LocalDate getDataFim() {
+        return dataFim;
+    }
     public String getDescricao() {
         return descricao;
     }
